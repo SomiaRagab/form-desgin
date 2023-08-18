@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_six</title>
+    <style>
+        p.larg {
+            font-size: xx-large;
+
+        }
+
+        .larg,
+        .para {
+            color: rgb(43, 226, 156);
+        }
+
+        #mypara.larg {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(0, 140, 255);
+            font-size: large;
+        }
+
+        [title] {
+            font-size: larger;
+            background: burlywood;
+        }
+
+        .para {
+            /* display: none; */
+            /* opacity: 0; */
+            visibility: hidden;
+        }
+        img[src=""]{
+            display: none;
+        }
+        [class|="top"]{
+            background: rgb(50, 42, 157);
+        }
+        [class*="top"]{
+            background: rgb(130, 191, 206);
+        }
+        [class$="top"]{
+            background: rgb(50, 42, 157);
+        }
+     
+    </style>
+</head>
+
+<body>
+    <h1>Selectors</h1>
+    <span class="larg"> hi span</span>
+
+    <p id="mypara" class="larg">
+        hi Eng
+    </p>
+    <P class="larg">
+        Hi tech
+    </P>
+    <p class="para">
+        hi Doc
+    </p>
+    <p title="hint">HI para</p>
+    <div title="XX">Hi div</div>
+    <img src="" alt="" height="100px" width="100px">
+  <P class="top-test">Hello</P>
+  <P class="toptest">Hello</P>
+  <P class="testtop">Hello</P>
+
+
+</body>
+
+</html>

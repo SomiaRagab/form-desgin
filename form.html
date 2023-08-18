@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<style>
+   /*add full-width input fields*/
+  
+   input[type=text],
+   input[type=password] {
+       width: 100%;
+       padding: 12px 20px;
+       margin: 8px 0;
+       display: inline-block;
+       border: 2px solid #ccccccde;
+       box-sizing: border-box;
+   }
+   /* set a style for the main container */
+   .main-container {
+       direction: ltr;
+       padding-left: 15px;
+       padding- right: 15px;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 700px;
+   }
+ 
+ 
+   /* set a style for all buttons*/
+  
+   button {
+       background-color: rgb(2, 0, 128);
+       color: rgba(255, 255, 255, 0.918);
+       padding: 15px 20px;
+       margin: 8px 0;
+       cursor: pointer;
+       width: 100%;
+   }
+   /*set styles for the cancel button*/
+  
+   .cancelbtn {
+       padding: 15px 20px;
+       background-color: #ff1e00f5;
+   }
+   /*float cancel and signup buttons and add an equal width*/
+  
+   .cancelbtn,
+   .signupbtn {
+       float: left;
+       width: 50%;
+   }
+   /*add padding to container elements*/
+  
+   .container {
+       padding: 16px;
+   }
+   /*clear floats*/
+  
+   .clearfix::after {
+       content: "";
+       clear: both;
+       display: table;
+   }
+   /*styles for cancel button and signup button
+   on extra small screens*/
+  
+   @media screen and (max-width: 300px) {
+       .cancelbtn,
+       .signupbtn {
+           width: 100%;
+       }
+   }
+</style>
+<body>
+   <div class="main-container">
+       <h2>Create a new account</h2>
+       <!--Step 1:Adding HTML-->
+       <form action="/action_page.php" style="border:1px solid #ccccccfb">
+           <div class="container">
+               <label><b>E-mail</b></label>
+               <input type="text" placeholder="Enter your e-mail here" name="email" required>
+ 
+               <label><b> password</b></label>
+               <input type="password" placeholder=" password" name="psw" required>
+ 
+               <label><b>password confirmation </b></label>
+               <input type="password" placeholder="  password confirmation" name="psw-repeat" required>
+               <input type="checkbox" checked="checked"> remind me
+               <p>To create an account, the positions must be made on <a href="#"> Terms of Use & Privacy </a>.</p>
+ 
+               <div class="clearfix">
+                   <button type="button" class="cancelbtn"> Cancel</button>
+                   <button type="submit" class="signupbtn"> Create an account</button>
+               </div>
+           </div>
+       </form>
+   </div>
+ 
+</body>
+<

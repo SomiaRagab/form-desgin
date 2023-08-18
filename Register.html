@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task_three</title>
+    </head>
+    <body>
+        <header>
+          <a href="#">Home</a>
+          <a href="#">Call</a>
+          <a href="#">About</a>
+        </header>
+        <br>
+        <h1>Register Student</h1>
+        <form method="post" action="Response.html" enctype="multipart/form-data">
+            <div>
+            <label for="First name">FName</label>
+            <input name="FName" id="First name " type="text" placeholder="FName" maxlength="8">
+        </div>
+        <br>
+        <div>
+            <label for="second name">SName</label>
+            <input  name =" SName" id="second name" type="text" placeholder="SName" maxlength="8">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email</label>
+            <input name="email" id="Email" type="email" placeholder="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">age</label>
+            <input  name =" age" id="age" type="number" placeholder="age" max="40" min="20">
+        </div>
+        <br>
+        <div>
+          <label for="Birthday">Birthday</label>
+          <input type="date" name="Birthday" id="Birth" >
+        </div>
+        <br>
+        
+        <div>
+            <label for="information">info</label>
+        <textarea name="information" id="info" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <label for="Gender">Gender:</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="sgender" id="male">
+        <label for="Female">Female</label>
+        <input type="radio" name="sgender" id="Female">
+        <br>
+        <br>
+      <div>
+          <label for="Scity">City</label>
+          <select name="Scity" id="Scity">
+              <option value="1">Alex</option>
+              <option value="2">Egypt</option>
+              <option value="3">aswan</option>
+              <option value="4">minia</option>
+              <option value="5">matrouh</option>
+          </select>
+      </div>
+        <br>
+        <div>
+        <label for="Hobbies">Hobbies:</label><br>
+        <label for="checkReading">Reading</label>
+        <input type="checkbox" name="SHobbies" id="checkReading" value="Reading">
+        <label for="checkrunning">Running</label>
+        <input type="checkbox" name="sHobbies" id="checkrunning" value="Running">
+    </div>
+    <br>
+    <br>
+    <div>
+      <label for="File">Upload_File</label> <br>
+      <input type="file" name="UploadFile" id="File" accept=".pdf">
+    </div>
+    <br>
+
+        
+        <input type="Submit"> 
+        </form>
+        <br>
+        <footer>
+            All Right Reserved
+        </footer>
+    </body>
+</html>
